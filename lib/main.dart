@@ -27,6 +27,11 @@ class _MaterialFlutterApp extends State<MaterialFlutterApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Material Design App')),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.add),
+        onPressed: () {
+
+        },
+      )
     );
   }
 }
