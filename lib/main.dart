@@ -1,24 +1,32 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+void main() => runApp(MyApp());
 
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(  //상중하
-       body: Row(
-         children: [
-           Icon(Icons.star),
-           Icon(Icons.star),
-           Icon(Icons.star),
-           //주석달기
-         ],
-       )
-      )
+      title: 'Material Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MaterialFlutterApp(),
+    );
+  }
+}
+
+class MaterialFlutterApp extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _MaterialFlutterApp();
+  }
+}
+
+class _MaterialFlutterApp extends State<MaterialFlutterApp> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+
     );
   }
 }
