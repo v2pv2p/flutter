@@ -26,7 +26,7 @@ class _MaterialFlutterApp extends State<MaterialFlutterApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      appBar: AppBar(title: Text('Material Design App')),
     );
   }
 }
