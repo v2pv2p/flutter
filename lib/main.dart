@@ -39,10 +39,12 @@ class _MaterialFlutterApp extends State<MaterialFlutterApp> {
           },
       ),
       body: Container(
-        child: Column(
-          children: <Widget>[Icon(Icons.android), Text('android')],
-          mainAxisAlignment: MainAxisAlignment.center,
-        ),
+        child: Center(
+          child: Column(
+            children: <Widget>[Icon(Icons.android), Text('android')],
+            mainAxisAlignment: MainAxisAlignment.center,
+          ),
+        )
       )
     );
   }
