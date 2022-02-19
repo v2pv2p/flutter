@@ -1,4 +1,4 @@
-# contact
+# Flutter project
 
 A new Flutter project.
 
