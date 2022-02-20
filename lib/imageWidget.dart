@@ -29,14 +29,14 @@ class _ImageWidgetApp extends State<ImageWidgetApp> {
             children: <Widget>[
               Image.asset(
                 _imagePath,
-                width: 700,
-                height: 100,
+                width: 200,
+                height: 200,
                 fit: BoxFit.fill,
               ),
               Text(
-                '$_text',
+                _text,
                 style: TextStyle(
-                    fontFamily: 'Pacifico', fontSize: 30, color: _color),
+                    fontFamily: 'Pacifico', fontSize: 30, color: Colors.blue),
               )
             ],
           ),
