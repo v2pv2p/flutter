@@ -31,20 +31,20 @@ class _MaterialFlutterApp extends State<MaterialFlutterApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Material Design App')),
-      floatingActionButton: FloatingActionButton(
-        child:
-          Icon(Icons.add),
-          onPressed: () {
-
-          },
+      appBar: AppBar(
+          title: Text('Widget Example')
       ),
       body: Container(
         child: Center(
-          child: Column(
-            children: <Widget>[Image.asset('image/flutter.png')],
-            mainAxisAlignment: MainAxisAlignment.center,
-          ),
+            child: Column(
+                children: <Widget>[
+                  Text('flutter'),
+                  TextField(),
+                  ElevatedButton(child: const Text(''), onPressed: () {
+
+                  },)
+                ]
+            )
         )
       )
     );
