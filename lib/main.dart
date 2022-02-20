@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'imageWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -41,7 +42,7 @@ class _MaterialFlutterApp extends State<MaterialFlutterApp> {
       body: Container(
         child: Center(
           child: Column(
-            children: <Widget>[Icon(Icons.android), Text('android')],
+            children: <Widget>[Image.asset('image/flutter.png')],
             mainAxisAlignment: MainAxisAlignment.center,
           ),
         )
