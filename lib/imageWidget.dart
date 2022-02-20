@@ -29,8 +29,8 @@ class _ImageWidgetApp extends State<ImageWidgetApp> {
             children: <Widget>[
               Image.asset(
                 _imagePath,
-                width: _size,
-                height: _size,
+                width: 200,
+                height: 100,
                 fit: BoxFit.contain,
               ),
               Text(
